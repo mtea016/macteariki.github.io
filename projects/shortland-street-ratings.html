@@ -20,10 +20,10 @@
           <i class="material-icons">close</i>
         </div>
         <div class="connect-text">
-          <h3><a href="#">macteariki@gmail.com</a></h3>
+          <h3><a href="mailto:macteariki@gmail.com" target="_top">macteariki@gmail.com</a></h3>
           <div class="connect-modal-btn">
-            <p><a href="#">Linkedin<a href="#"></p>
-            <p><a href="#">Twitter</a></p>
+            <p><a href="https://nz.linkedin.com/in/mac-teariki-0880a865" target="_blank">Linkedin</a></p>
+            <p><a href="https://twitter.com/macteariki" target="_blank">Twitter</a></p>
           </div>
         </div>
       </div>
@@ -34,9 +34,11 @@
         <div class="back-btn header-btn">
           <a href="../index.html"><i class="material-icons">chevron_left</i></a>
         </div>
-        <div class="header-btn about-btn">
-          <p>About me</p>
-        </div>
+        <a href="../about.html">
+          <div class="header-btn about-btn">
+            <p>About me</p>
+          </div>
+        </a>
         <div class="header-btn" id="contact-btn">
           <p>Connect</p>
         </div>
@@ -53,7 +55,7 @@
             </div>
 
             <div class="project-synopsis">
-              <p>To celebrate Shortland Street's 25th anniversary, the Herald obtained all available ratings (Nielsen data from 1995 to present day) to track the highs and lows of Shorty Street. I created an interactive line chart to visualize the dataset. I combined <span class="tool">D3.js</span> with  <span class="tool">React</span> to construct the chart components and I used  <span class="tool">Sass</span> for general styling.</p>
+              <p>To celebrate Shortland Street's 25th anniversary, the Herald obtained all available ratings (Nielsen data from 1995 to present day) to track the highs and lows of Shorty Street. I created an interactive line chart to visualize the dataset. I combined <span class="tool">D3</span> with  <span class="tool">React</span> to construct the chart components and I used  <span class="tool">Sass</span> for general styling.</p>
             </div>
 
             <div class="info-container">
@@ -62,7 +64,7 @@
                   <a href="http://insights.nzherald.co.nz/article/shortland-street-ratings/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Visit project</a>
                 </div>
                 <div class="project-skills margin">
-                  <p><i class="fa fa-cube" aria-hidden="true"></i>UX, Design, Development, Data</p>
+                  <p><i class="fa fa-cube" aria-hidden="true"></i>UX, Design, Development, Data visualization</p>
                 </div>
               </div>
             </div>
@@ -71,13 +73,13 @@
         </div>
 
         <div class="image-container">
-          <div class="lead-image" id="shorty-lead">
+          <div class="lead-image">
             <img src="../images/short-teaser.gif" alt="">
           </div>
         </div>
 
         <div class="image-container top-margin">
-          <div class="lead-image" id="shorty-lead">
+          <div class="lead-image">
             <img src="../images/shorty-mobile.jpg" alt="">
           </div>
         </div>
@@ -102,6 +104,7 @@
     <footer class="main-footer">
       <p>&copy; Mac Teariki 2017</p>
     </footer>
+
+    <script src="../main.js"></script>
   </body>
-  <script src="../main.js"></script>
 </html>
